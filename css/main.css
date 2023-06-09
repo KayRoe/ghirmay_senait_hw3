@@ -1,0 +1,169 @@
+/*---General Styles--- */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+input, textarea {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    transition:all .5s ease-in-out;
+ }
+
+ .spacer {
+    margin-top: 55px;
+}
+
+.txt-spacer {
+    margin-top: 20px;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+img, embed, object, video, picture {
+    max-width: 100%;
+}
+
+
+section p {
+    padding-left: 10px;
+}
+
+section h2 {
+    padding-left: 10px;
+}
+
+
+section h3 {
+    padding-left: 10px;
+}
+
+
+/* ---End of General Styles--- */
+
+
+
+
+#hero {
+    height: 600px;
+}
+
+#map {
+    height: 300px;
+}
+
+#message{
+    height: 100px;
+    width: 530px; 
+}
+
+#subtitle {
+    height: 100px
+}
+
+#productslider{
+    height: 400px;
+} 
+
+
+#video {
+    height: 300px;
+}
+
+ 
+#footer{
+    height: 200px;
+
+}
+
+.morebtn1 {
+    display: flex;
+    align-items: center;
+    width: 130px;
+    color: #989898;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 40px auto;
+    margin-bottom: 40px;
+    border: 2px solid #000000;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.submitbtn {
+    display: flex;
+    align-items: center;
+    width: 130px;
+    color: #989898;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 40px auto;
+    margin-bottom: 40px;
+    border: 2px solid #000000;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+   
+    
+    #hero {
+        height: 600px;
+    }
+
+    #map {
+        height: 450px;
+    }
+    
+    #message{
+        height: 200px;
+        width: 760px; 
+        
+    }
+    
+    #subtitle {
+        height: 150px
+    }
+
+    #productslider{
+        height: 300px;
+    } 
+
+    #video {
+        height: 500px;
+    }
+   
+    #footer {
+        height: 400px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    #video {
+        height: 800px;
+    }
+ 
+}
